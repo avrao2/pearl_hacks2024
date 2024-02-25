@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shatter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #9a7598;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #9a7598;
+            padding: 20px; 
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+            font-family: "Manrope", sans-serif;
+        }
+
+        .navbar a.button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+        .navbar-logo {
+            width: 100px; 
+        }
+
+        .form {
+            width: 340px;
+            height: 440px;
+            background: #e6e6e6;
+            border-radius: 8px;
+            box-shadow: 0 0 40px -10px #000;
+            margin: 50px auto;
+            padding: 20px 30px;
+            max-width: calc(100vw - 40px);
+            box-sizing: border-box;
+            font-family: "Manrope", sans-serif;
+            position: relative;
+        }
+
+        h2 {
+            margin: 10px 0;
+            padding-bottom: 10px;
+            width: 180px;
+            color: #001b2e;
+            border-bottom: 3px solid #78788c;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background: none;
+            outline: none;
+            resize: none;
+            border: 0;
+            font-family: "Manrope", sans-serif;
+            transition: all .3s;
+            border-bottom: 2px solid #bebed2;
+        }
+
+        input:focus {
+            border-bottom: 2px solid #78788c;
+        }
+
+        button {
+            float: right;
+            padding: 8px 12px;
+            margin: 8px 0 0;
+            font-family: "Manrope", sans-serif;
+            border: 2px solid #78788c;
+            background: 0;
+            color: #5a5a6e;
+            cursor: pointer;
+            transition: all .3s;
+        }
+
+        button:hover {
+            background: #78788c;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img class="navbar-logo" src="logo.png" alt="Logo">
+        <a href="homepage.html" class="button">Back to Home</a>
+    </div>
+
+    <form class="form">
+        <h2>CONTACT US</h2>
+        <input placeholder="Your Name">
+        <input placeholder="Email">
+        <input placeholder="What would you like to share with us?">
+        <button>Send Message</button>
+    </form>
+</body>
+</html>

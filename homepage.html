@@ -5,137 +5,159 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<style>
+  body {
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
 
-        .navbar {
-            background-color: #9a7598;
-            padding: 20px; 
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+  .navbar {
+      background-color: #9a7598;
+      padding: 20px; 
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
 
-        .navbar a {
-            text-decoration: none;
-            color: white;
-            margin: 0 15px;
-            font-size: 18px;
-        }
+  .navbar a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      font-size: 18px;
+  }
 
-        .navbar-logo {
-            width: 50px; 
-        }
+  .navbar a.button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
-        /* Two-column layout */
-        .two-column-wrapper {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            margin-left: 10%; 
-        }
+  .navbar-logo {
+      width: 100px; 
+  }
 
-        .left-column {
-            width: 40%;
-            padding-right: 20px; 
-            box-sizing: border-box;
-        }
+  .two-column-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      margin-left: 10%; 
+  }
 
-        .right-column {
-            width: 60%;
-            box-sizing: border-box;
-        }
+  .left-column {
+      width: 40%;
+      padding-right: 20px; 
+      box-sizing: border-box;
+  }
 
-        /* Hero title styles */
-        .hero-title {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
+  .right-column {
+      width: 60%;
+      box-sizing: border-box;
+  }
 
-        /* Hero image styles */
-        .hero-image {
-            width: 50%; 
-            max-width: 100%; 
-            border-radius: 10px; 
-        }
-    </style>
+  .hero-title {
+      font-family: "Manrope", sans-serif; 
+      font-size: 3em;
+      margin-top: 50px; 
+      margin-bottom: 50px;
+      color: #001b2e;
+  }
+
+  .hero-image {
+      width: 50%; 
+      max-width: 100%; 
+      border-radius: 10px;
+  }
+
+  .body-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      margin: 60px 0;
+  }
+
+  .text-column {
+      margin-top: 10%; 
+      margin-left: 40px; 
+      width: 50%;
+      box-sizing: border-box;
+  }
+
+  .image-column {
+      width: 50%;
+      box-sizing: border-box;
+  }
+
+  .image {
+    padding-left: 100px; 
+    height: 600px;
+    border-radius: 10px; 
+    object-fit: cover;
+  }
+        
+</style>
+
 </head>
 <body>
 
     <div class="navbar">
-        <img class="navbar-logo" src="logo.jpg" alt="Logo">
-            <a href="contact.html">Contact Us</a>
+        <img class="navbar-logo" src="logo.png" alt="Logo">
+            <a href="contact.html" class="button">Contact Us</a>
         </div>
     </div>
 
     <div class="two-column-wrapper">
         <div class="left-column">
             <h1 class="hero-title">Shatter the Glass Ceiling</h1>
+            <p>Shatter the Ceiling goes beyond budgeting; it's your financial ally. We offer tailored budget guidance, a hub of financial wisdom, and a vibrant community to guide and uplift women on their financial path.</p>
         </div>
         <div class="right-column">
             <img class="hero-image" src="homepage.jpg" alt="Hero Image">
         </div>
     </div>
 
-    <section class="about_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="detail-box">
-                        <h2>Budgeting</h2>
-                        <p>Text</p>
-                    </div>
+        <div class="body-content">
+            <div class="text-column">
+                        <h2>Budgeting for Women's Financial Priorities and Life Events</h2>
+                        <p>Our budgeting feature offers tailored guidance for women on managing expenses related to mental health, wellness subscriptions, and self-care/beauty activities. Beyond this, our budgeting tool helps women plan for significant life events. We provide strategies to support women through budgeting for child care, saving for maternity leave, purchasing menstrual products, managing reproductive health costs, and tackling college loan payment. From setting realistic budgets to finding affordable resources, we're here to help you prioritize your well-being without breaking the bank.
+                        </p>
                 </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="img-box">
-                        <img src="insert image" alt="">
+                    <div class="image-column">
+                      <img src="budget_shattered.png" alt="Image" class="image">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="about_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="detail-box">
-                        <h2>Financial Literacy</h2>
-                        <p>Text</p>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="img-box">
-                        <img src="insert image" alt="">
+        <div class="body-content">
+            <div class="image-column">
+              <img src=""insert image" alt="">
+            </div>
+            <div class="text-column">
+                        <h2>Financial Literacy Hub</h2>
+                        <p>Empowering women with financial literacy is at the core of our mission. Our comprehensive financial literacy hub covers essential topics such as salary negotiation, the gender pay gap, and demystifying investing. All of our resources and insights are tailored to the unique financial landscape faced by women.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="about_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="detail-box">
+                <div class="body-content">
+                    <div class="text-column">
                         <h2>Community Forum</h2>
-                        <p>Text</p>
+                        <p>Our community forum provides a safe and supportive space for women to come together, share experiences, seek advice, and offer support on various financial topics. We aim to provide a platform for women to connect with like-minded individuals and navigate financial planning challenges. 
+                        </p>
                     </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="img-box">
-                        <img src="insert image" alt="">
+                    <div class="image-column">
+                        <img src="community_shattered.png" alt="Image" class="image">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 </body>
 </html>
